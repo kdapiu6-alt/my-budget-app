@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q MyBudget_Android_APK_Ready.zip
+          unzip -q MyBudget_Android_APK_Ready_v3.zip
           ls -la MyBudgetAndroid
 
       - name: Set up Java
